@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Smart Trade - Contact Page</title>
+    <title>Smart Trade - Cart</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,7 +56,7 @@
           <div class="d-lg-none">
             <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
 
-            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+            <a href="cart.html" class="bi-bag custom-icon"></a>
           </div>
 
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -78,155 +78,72 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contacto</a>
+                <a class="nav-link" href="contact.html">Contacto</a>
               </li>
             </ul>
 
             <div class="d-none d-lg-block">
               <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
 
-              <a href="product-detail.html" class="bi-bag custom-icon"></a>
+              <a href="cart.html" class="bi-bag custom-icon"></a>
             </div>
           </div>
         </div>
       </nav>
 
-      <header class="site-header section-padding-img site-header-image">
+      <header
+        class="site-header section-padding d-flex justify-content-center align-items-center"
+      >
         <div class="container">
           <div class="row">
-            <div class="col-lg-10 col-12 header-info">
+            <div class="col-lg-10 col-12">
               <h1>
-                <span class="d-block text-primary">Si tienes alguna duda</span>
-                <span class="d-block text-dark">envíanos un mensaje</span>
+                <span class="d-block text-primary">Carrito</span>
+                <span class="d-block text-dark">de compras</span>
               </h1>
             </div>
           </div>
         </div>
-
-        <img
-          src="images/header/positive-european-woman-has-break-after-work.jpg"
-          class="header-image img-fluid"
-          alt=""
-        />
       </header>
 
-      <section class="contact section-padding">
+      <section class="cart section-padding">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-12">
-              <h2 class="mb-4">Contacta con <span>nosotros</span></h2>
-
-              <form class="contact-form me-lg-5 pe-lg-3" role="form">
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-control"
-                    placeholder="Full name"
-                    required
-                  />
-
-                  <label for="name">Nombre</label>
-                </div>
-
-                <div class="form-floating my-4">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    pattern="[^ @]*@[^ @]*"
-                    class="form-control"
-                    placeholder="Email address"
-                    required
-                  />
-
-                  <label for="email">Dirección email</label>
-                </div>
-
-                <div class="form-floating my-4">
-                  <input
-                    type="subject"
-                    name="subject"
-                    id="subject"
-                    class="form-control"
-                    placeholder="Subject"
-                    required
-                  />
-
-                  <label for="subject">Asunto</label>
-                </div>
-
-                <div class="form-floating mb-4">
-                  <textarea
-                    id="message"
-                    name="message"
-                    class="form-control"
-                    placeholder="Leave a comment here"
-                    required
-                    style="height: 160px"
-                  ></textarea>
-
-                  <label for="message">Cuéntanos</label>
-                </div>
-
-                <div class="col-lg-5 col-6">
-                  <button type="submit" class="form-control">Enviar</button>
-                </div>
-              </form>
+            <div class="col-12">
+              <h2 class="mb-5">Carrito de compras</h2>
             </div>
 
-            <div class="col-lg-6 col-12 mt-5 ms-auto">
-              <div class="row">
-                <div class="col-6 border-end contact-info">
-                  <h6 class="mb-3">Línea de Marketing</h6>
+            <div class="col-lg-4 col-12 mb-3">
+              <div class="product-thumb">
+                <a href="product-detail.html">
+                  <img
+                    src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
+                    class="img-fluid product-image"
+                    alt=""
+                  />
+                </a>
 
-                  <a href="mailto:hello@company.com" class="custom-link">
-                    hello@marketing.com
-                    <i class="bi-arrow-right ms-2"></i>
-                  </a>
+                <div class="product-top d-flex">
+                  <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
                 </div>
 
-                <div class="col-6 contact-info">
-                  <h6 class="mb-3">Línea principal</h6>
+                <div class="product-info d-flex">
+                  <div>
+                    <h5 class="product-title mb-0">
+                      <a href="product-detail.html" class="product-title-link"
+                        >Tree pot</a
+                      >
+                    </h5>
 
-                  <a href="mailto:studio@company.com" class="custom-link">
-                    main@line.com
-                    <i class="bi-arrow-right ms-2"></i>
-                  </a>
-                </div>
+                    <p class="product-p">Original package design from house</p>
+                  </div>
 
-                <div class="col-6 border-top border-end contact-info">
-                  <h6 class="mb-3">Nuestras oficinas</h6>
-
-                  <p class="text-muted">
-                    Avda. Concha Espina, 1, 28036, Madrid, España
-                  </p>
-                </div>
-
-                <div class="col-6 border-top contact-info">
-                  <h6 class="mb-3">Nuestras redes</h6>
-
-                  <ul class="social-icon">
-                    <li>
-                      <a href="#" class="social-icon-link bi-messenger"></a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="social-icon-link bi-youtube"></a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="social-icon-link bi-instagram"></a>
-                    </li>
-
-                    <li>
-                      <a href="#" class="social-icon-link bi-whatsapp"></a>
-                    </li>
-                  </ul>
+                  <small class="product-price text-muted ms-auto">$25</small>
                 </div>
               </div>
             </div>
+
+            <!-- Add more products here -->
           </div>
         </div>
       </section>
@@ -258,7 +175,7 @@
               </li>
 
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Productos</a>
+                <a href="products.html" class="footer-menu-link">Productos</a>
               </li>
 
               <li class="footer-menu-item">
@@ -266,11 +183,11 @@
               </li>
 
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">FAQs</a>
+                <a href="faq.html" class="footer-menu-link">FAQs</a>
               </li>
 
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Contacto</a>
+                <a href="contact.html" class="footer-menu-link">Contacto</a>
               </li>
             </ul>
           </div>
